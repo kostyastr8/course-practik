@@ -1,0 +1,36 @@
+html {
+    font-size: 14px;
+    font-family: 'Roboto Slab', Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+body {
+    min-width: 320px;
+    margin: auto;
+}
+
+.listunstyle {
+    list-style: none;
+    padding-left:0;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.clear {
+    clear: both;
+}
+
+.container {
+    max-width: 1140px;
+    color: #ffffff;
+    margin: auto;
+}
+
+/*@media (max-width: 960px) {
+
+    .container {
+        max-width: 740px;
+        margin: auto;
+    }
+}*/

@@ -1,0 +1,72 @@
+.headernav {
+    background: url("../images/backgroundnav1.jpg") center center no-repeat;
+    width: auto;
+    height: 770px;
+    font-family: Montserrat, Arial, "Helvetica Neue", Helvetica, sans-serif;
+    margin-top: 0;
+}
+
+.startap, .menu {
+    margin: 38px auto;
+}
+
+
+.startap {
+    float: left;
+    font-size:24px;
+    font-weight: bold;
+    line-height: 0.5;
+}
+
+.menu {
+    float: right;
+    list-style: none;
+    font-size: 14px;
+    color: #ffffff;
+    text-align: end;
+}
+
+.menu li{
+    display:inline;
+    margin-right: 30px;
+}
+
+.greeting {
+    margin: 215px auto 0;
+    text-align: center;
+}
+
+h2 {
+    font-size: 48px;
+    margin: 0;
+    font-weight: normal;
+}
+
+.greeting1 {
+    font-size: 20px;
+    margin-top: 20px;
+    font-family: 'Roboto Slab', Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.getit {
+    width: 174px;
+    height: auto;
+    background-color: inherit;
+    border: 2px solid #ffffff;
+    font-size: 16px;
+    margin: 50px auto;
+    padding: 15px 0;
+    text-align: center;
+    vertical-align: middle;
+    transition: background-color, color 0.5s;
+}
+
+.getit:hover {
+    background-color: #ffffff;
+    color: #c0301c;
+}
+
+
+
+
+

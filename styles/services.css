@@ -1,0 +1,26 @@
+.service {
+    margin: 90px auto;
+    text-align: center;
+}
+
+h4 {
+    font-size: 20px;
+    font-family: Montserrat, Arial, "Helvetica Neue", Helvetica, sans-serif;
+    margin: 0 auto;
+    color: #555555;
+}
+
+hr {
+    width: 50px;
+    height: 2px;
+    margin: 25px auto;
+    border: none;
+    background-color:#555555;
+}
+
+.service span {
+    font-family: 'Roboto Slab', Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 16px;
+    color: #555555;
+    margin-top: 30px;
+}
