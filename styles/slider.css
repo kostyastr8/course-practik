@@ -1,0 +1,34 @@
+.slider {
+    margin-top: 70px;
+}
+
+.members {
+    height: auto;
+    font-family: Montserrat, Arial, "Helvetica Neue", Helvetica, sans-serif;
+    text-align: center;
+    display: inline-block;
+    margin:0 10px;
+}
+
+.members:first-child{
+    margin-left: 0;
+}
+
+.members:last-child{
+    margin-right: 0;
+}
+
+.members a {
+    text-align: center;
+    color: #555555;
+    font-size: 13px;
+
+}
+
+.members a h5{
+    font-size: 14px;
+    margin: 14px auto 8px;
+}
+
+
+
