@@ -24,3 +24,43 @@ hr {
     color: #555555;
     margin-top: 30px;
 }
+
+.servicetype {
+    margin: 70px 0;
+    color: #555555;
+    font-size: 14px;
+}
+
+.servicetypeelement{
+    display: inline-block;
+}
+
+.servicetypeelement:first-child {
+    padding-right: 43px;
+}
+
+.servicetypeelement:last-child {
+    padding-left: 43px;
+}
+
+
+.icon {
+    border: 1px solid #dddddd;
+    width: 44px;
+    height: 44px;
+    border-radius: 88px;
+    padding: 20px;
+    margin: auto;
+}
+
+.servicetype h5{
+    font-family: Montserrat, Arial, "Helvetica Neue", Helvetica, sans-serif;
+    margin: 35px auto 15px;
+    font-size: 14px;
+}
+
+.servicetype span{
+    font-size: 14px;
+    font-family: 'Roboto Slab', Arial, "Helvetica Neue", Helvetica, sans-serif;
+    line-height: 1.7;
+}

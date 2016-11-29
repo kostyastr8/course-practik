@@ -30,6 +30,9 @@
     display:inline;
     margin-right: 30px;
 }
+.menu li:last-child {
+    margin-right: 0;
+}
 
 .greeting {
     margin: 215px auto 0;
