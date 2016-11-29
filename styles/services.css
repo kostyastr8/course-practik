@@ -1,6 +1,11 @@
-.service {
-    margin: 90px auto;
+.service,
+.aboutus{
+    margin: 90px auto 95px;
     text-align: center;
+}
+
+.aboutus {
+    margin-bottom: 70px;
 }
 
 h4 {
@@ -8,6 +13,10 @@ h4 {
     font-family: Montserrat, Arial, "Helvetica Neue", Helvetica, sans-serif;
     margin: 0 auto;
     color: #555555;
+}
+
+.aboutus h4{
+    padding-top: 99px
 }
 
 hr {
@@ -18,20 +27,28 @@ hr {
     background-color:#555555;
 }
 
-.service span {
+
+.service span,
+.aboutus span{
     font-family: 'Roboto Slab', Arial, "Helvetica Neue", Helvetica, sans-serif;
     font-size: 16px;
     color: #555555;
     margin-top: 30px;
 }
 
-.servicetype {
+.servicetype,
+.aboutustextpart {
     margin: 70px 0;
     color: #555555;
     font-size: 14px;
 }
 
-.servicetypeelement{
+.aboutustextpart {
+    margin-bottom: 20px;
+}
+
+.servicetypeelement,
+.textpart {
     display: inline-block;
 }
 
@@ -43,6 +60,14 @@ hr {
     padding-left: 43px;
 }
 
+
+.textpart:first-child {
+    padding-right: 14px;
+}
+
+.textpart:last-child {
+    padding-left: 14px;
+}
 
 .icon1,.icon2, .icon3 {
     position: relative;
@@ -106,11 +131,17 @@ hr {
     margin: 30px auto 15px;
     font-size: 14px;
 }
-
+.aboutustextpart span,
 .servicetype span{
     font-size: 14px;
     font-family: 'Roboto Slab', Arial, "Helvetica Neue", Helvetica, sans-serif;
     line-height: 1.7;
 }
+
+.aboutusbackcolor{
+    background-color: #f8f8f8;
+}
+
+
 
 
