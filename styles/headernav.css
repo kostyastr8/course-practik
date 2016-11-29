@@ -22,16 +22,25 @@
     float: right;
     list-style: none;
     font-size: 14px;
-    color: #ffffff;
     text-align: end;
 }
 
 .menu li{
     display:inline;
     margin-right: 30px;
+
 }
 .menu li:last-child {
     margin-right: 0;
+}
+.menu li a {
+    color: #ffffff;
+    transition: background-color, color 0.5s;
+}
+
+.menu li a:hover {
+    background-color: #ffffff;
+    color: #c0301c;
 }
 
 .greeting {
