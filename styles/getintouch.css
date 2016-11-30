@@ -1,0 +1,22 @@
+.getintouch {
+    background: url("../images/backgroundGETINTOUCH.jpg") center center no-repeat;
+    width: auto;
+    height: 100%;
+    text-align: center;
+    margin: auto;
+    padding-bottom:73px;
+}
+
+.gettext {
+    font-size: 30px;
+    color: #ffffff;
+    padding-top: 116px;
+    line-height: 1.37;
+}
+
+.getintouch .getit{
+    font-size: 18px;
+    color: #ffffff;
+    margin-top: 45px;
+    padding: 15px 1px 13px;
+}

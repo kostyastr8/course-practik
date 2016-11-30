@@ -92,7 +92,7 @@ hr {
 
 
 .works{
-    margin: 96px auto;
+    margin: 96px auto 77px;
     text-align: center;
 }
 
@@ -116,5 +116,6 @@ hr {
 .latesworksmenu li a:hover{
     color:#c0301c;
 }
+
 
 
