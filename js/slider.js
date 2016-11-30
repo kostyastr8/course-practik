@@ -2,6 +2,16 @@
 $(document).ready(function(){
     var $slider = $('.slider');
 
+    $(".slider:before").on('click', function(e) {
+        e.preventDefault();
+        $('this').slick('slickPrev');
+    });
+
+    $(".slider:after").on('click', function(e) {
+        e.preventDefault();
+        $slider2.slick('slickNext');
+    });
+
 $slider.slick({
     infinite: true,
     slidesToScroll: 1,

@@ -1,34 +1,62 @@
 .slider {
     margin-top: 70px;
+    position: relative;
 }
 
-.members {
+.member {
+    width: 100%;
     height: auto;
     font-family: Montserrat, Arial, "Helvetica Neue", Helvetica, sans-serif;
     text-align: center;
     display: inline-block;
-    margin:0 10px;
 }
 
-.members:first-child{
-    margin-left: 0;
-}
-
-.members:last-child{
-    margin-right: 0;
-}
-
-.members a {
+.member a {
     text-align: center;
     color: #555555;
     font-size: 13px;
-
 }
 
-.members a h5{
+.member img {
+    margin: 0;
+}
+
+.member a h5 {
     font-size: 14px;
     margin: 14px auto 8px;
 }
 
+.slider:before {
+    content: '';
+    position: absolute;
+    width: 35px;
+    height: 38px;
+    background: #8e8e8e url("img/angleleft.png") no-repeat center center;
+    top: 35%;
+    right: 100%;
+    bottom: 0;
+    left: 0;
+    z-index:100;
+}
 
+.slider:hover:before {
+    background: #c0301c url("img/anglelefthover.png") no-repeat center center;
+}
+
+.slider:after {
+    content: '';
+    position: absolute;
+    width: 35px;
+    height: 38px;
+    background: #8e8e8e url("img/angleright.png") no-repeat center center;
+    top: 35%;
+    right: 0;
+    bottom: 0;
+    left: 95%;
+    z-index:100;
+}
+
+.slider:hover:after {
+    background: #c0301c url("img/anglerighthover.png") no-repeat center center;
+}
 
