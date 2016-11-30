@@ -7,17 +7,51 @@
     display: inline-block;
     margin: 25px 25px 0 0;
 }
-.workaction {
-    display: none;
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-}
 
 .block:nth-child(3),
 .block:nth-child(6),
 .block:nth-child(9){
     margin-right: 0;
 }
+
+
+.workaction {
+    display: none;
+    position: absolute;
+    width: 360px;
+    height: 320px;
+    top:0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(192,48,28,0.7);
+    opacity:0;
+    transition: opacity 0.3s;
+}
+
+
+
+.workaction h5{
+    font-family: Montserrat, Arial, "Helvetica Neue", Helvetica, sans-serif;
+    margin: 105px 0 10px;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.workaction a .getit{
+    width: 100px;
+    font-size: 14px;
+    text-align: center;
+    vertical-align: middle;
+    padding: 9px 0;
+    margin: 24px auto 0;
+}
+
+
+.block:hover .workaction{
+    display: block;
+    opacity:1;
+}
+
+
+
