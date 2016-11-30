@@ -1,0 +1,23 @@
+
+.workblocks {
+    width: 100%;
+}
+.block {
+    position: relative;
+    display: inline-block;
+    margin: 25px 25px 0 0;
+}
+.workaction {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.block:nth-child(3),
+.block:nth-child(6),
+.block:nth-child(9){
+    margin-right: 0;
+}

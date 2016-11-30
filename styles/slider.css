@@ -10,7 +10,15 @@
     text-align: center;
     display: inline-block;
     position: relative;
-    margin: 0 15px;
+    margin: 0 20px;
+}
+
+.member:first-child {
+     margin-left: 0;
+}
+
+.member:last-child {
+    margin-right: 0;
 }
 
 .member a {
@@ -27,7 +35,6 @@
     font-size: 14px;
     margin: 14px auto 8px;
 }
-
 
 
 .slick-next  {
@@ -70,4 +77,8 @@
 
 .slick-prev.slick-arrow:hover {
     background: #c0301c url("img/anglelefthover.png") no-repeat center center;
+}
+
+.member .slick-slide .slick-active{
+    margin-right: 30px;
 }

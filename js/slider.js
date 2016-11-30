@@ -10,14 +10,14 @@ $slider.slick({
     arrows:true,
     responsive:[
         {
-            breakpoint:1200,
+            breakpoint:960,
             settings:{
                 slidesToShow:3,
                 dots:true
             }
         },
         {
-            breakpoint:960,
+            breakpoint:780,
             settings:{
                 slidesToShow:2,
                 dots:true
@@ -26,3 +26,5 @@ $slider.slick({
     ]
 });
 });
+
+

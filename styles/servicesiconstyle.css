@@ -1,0 +1,56 @@
+.icon1,.icon2, .icon3 {
+    position: relative;
+    border: 2px solid #dddddd;
+    border-radius: 88px;
+    margin: auto;
+    background-color: #ffffff;
+    transition: background-color 0.3s;
+}
+
+
+.icon1{
+    width: 43px;
+    height: 43px;
+    padding: 20px;
+}
+.icon2{
+    width: 53px;
+    height: 40px;
+    padding: 23px 16px;
+}
+
+.icon3 {
+    width: 48px;
+    height: 47px;
+    padding: 19px;
+}
+/*доработать коректную рработу ховера*/
+.icon1:hover,
+.icon2:hover,
+.icon3:hover{
+    background-color: #c0301c;
+}
+
+
+.hoverservicon {
+    position: absolute;
+    top:0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    opacity:0;
+    transition: opacity 0.3s;
+}
+
+.icon1:hover .servicon,
+.icon2:hover .servicon,
+.icon3:hover .servicon{
+    display: none;
+}
+
+.icon1 .hoverservicon:hover,
+.icon2 .hoverservicon:hover,
+.icon3 .hoverservicon:hover{
+    opacity:1;
+}

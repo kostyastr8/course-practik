@@ -1,3 +1,7 @@
+.aboutustext {
+    padding-bottom: 100px;
+}
+
 .service,
 .aboutus {
     margin: 90px auto 95px;
@@ -6,6 +10,7 @@
 
 .aboutus {
     margin-bottom: 70px;
+
 }
 
 h4 {
@@ -44,7 +49,7 @@ hr {
 }
 
 .aboutustextpart {
-    margin-bottom: 20px;
+    
 }
 
 .servicetypeelement,
@@ -69,63 +74,6 @@ hr {
     padding-left: 14px;
 }
 
-.icon1,.icon2, .icon3 {
-    position: relative;
-    border: 2px solid #dddddd;
-    border-radius: 88px;
-    margin: auto;
-    background-color: #ffffff;
-    transition: background-color 0.3s;
-}
-
-
-.icon1{
-    width: 43px;
-    height: 43px;
-    padding: 20px;
-}
-.icon2{
-    width: 53px;
-    height: 40px;
-    padding: 23px 16px;
-}
-
-.icon3 {
-    width: 48px;
-    height: 47px;
-    padding: 19px;
-}
-/*доработать коректную рработу ховера*/
-.icon1:hover,
-.icon2:hover,
-.icon3:hover{
-    background-color: #c0301c;
-}
-
-
-.hoverservicon {
-    position: absolute;
-    top:0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    margin: auto;
-    opacity:0;
-    transition: opacity 0.3s;
-}
-
-.icon1:hover .servicon,
-.icon2:hover .servicon,
-.icon3:hover .servicon{
-    display: none;
-}
-
-.icon1 .hoverservicon:hover,
-.icon2 .hoverservicon:hover,
-.icon3 .hoverservicon:hover{
-    opacity:1;
-}
-
 .servicetype h5{
     font-family: Montserrat, Arial, "Helvetica Neue", Helvetica, sans-serif;
     margin: 30px auto 15px;
@@ -142,5 +90,26 @@ hr {
     background-color: #f8f8f8;
 }
 
+
+.works{
+    margin: 96px auto;
+    text-align: center;
+}
+
+.latesworksmenu {
+    list-style: none;
+    margin: 30px auto 45px;
+}
+
+.latesworksmenu li{
+    display: inline;
+    margin-right: 26px;
+}
+
+
+.latesworksmenu li a {
+    font-size: 16px;
+    color: #555555;
+}
 
 
