@@ -1,6 +1,7 @@
 
 $(document).ready(function(){
     var $slider = $('.slider');
+    var $slider2 = $('.slider2');
 
 
 $slider.slick({
@@ -25,6 +26,11 @@ $slider.slick({
         }
     ]
 });
+
+
+    $slider2.slick({
+        arrows:false,
+        autoplay:true,
+        dots:true
+    });
 });
-
-
