@@ -16,7 +16,20 @@
 
 .getintouch .getit{
     font-size: 18px;
-    color: #ffffff;
     margin-top: 45px;
     padding: 15px 1px 13px;
+    transition: background-color 0.3s;
+}
+
+.getintouch.getit:hover {
+    background-color: #ffffff;
+}
+
+.getintouch.getit a {
+    color: #ffffff;
+    transition:  color 0.3s;
+}
+
+.getintouch.getit a:hover {
+    color: #c0301c;
 }
