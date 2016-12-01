@@ -35,7 +35,7 @@
     font-size: 14px;
 }
 .autor {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 .autor a h5   {
     font-family: Montserrat, Arial, "Helvetica Neue", Helvetica, sans-serif;
@@ -60,11 +60,11 @@
 }
 
 .read {
-    font-size: 13px;
+    font-size: 14px;
     line-height: 1.8;
 }
 .readmore {
-    margin-top: 65px;
+    margin-top: 22px;
 }
 
 .readmore a {

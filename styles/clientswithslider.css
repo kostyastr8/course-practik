@@ -29,8 +29,36 @@ blockquote {
     padding-bottom: 20px;
 }
 
-.slick-dots li{
-    bottom: -55px;
+
+.slick-dots {
+    position: relative;
+    bottom: -30px;
+    margin:0;
 }
 
+.slick-dots li button{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border: 1px solid #dddddd;
+    width: 11px;
+    height: 11px;
+    border-radius: 24px;
+    background-color: #dddddd;
+}
+
+.slick-dots li button:before {
+    display: none;
+}
+
+ul .slick-active button {
+    bottom: 8px;
+    background-color: #c0301c;
+    border: 1px solid #c0301c;
+    width: 11px;
+    height: 11px;
+    border-radius: 24px;
+}
 
