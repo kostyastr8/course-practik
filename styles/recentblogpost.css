@@ -1,6 +1,6 @@
 
 .post {
-    margin: 70px 0;
+    margin: 72px 0;
 }
 .posttext {
     text-align: left;
@@ -35,18 +35,18 @@
     font-size: 14px;
 }
 .autor {
-    margin-bottom: 25px;
+    margin-bottom: 20px;
 }
 .autor a h5   {
     font-family: Montserrat, Arial, "Helvetica Neue", Helvetica, sans-serif;
     font-size: 16px;
     color: #555555;
-    margin: 20px 0;
+    margin: 15px 0;
     transition: color 0.3s;
 }
 
-.autor :hover h5 a,
-.autor :hover .autor span a {
+.autor:hover a h5,
+.autor:hover span a {
     color: #c0301c;
 }
 
@@ -73,5 +73,8 @@
     color: #555555;
     font-weight: bold;
     transition: color 0.3s;
+}
 
+.readmore a:hover {
+    color: #c0301c;
 }
