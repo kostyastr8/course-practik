@@ -1,0 +1,27 @@
+.contacts {
+    float: left;
+}
+
+.subscription {
+    float: right;
+}
+
+input.uniform-input {
+    width: 350px;
+    height: 40px;
+    font-size: 12px;
+    color: #555555;
+    padding-left: 15px;
+    font-family: 'Roboto Slab', Arial, "Helvetica Neue", Helvetica, sans-serif;
+    border:1px solid #555555;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+input.uniform-input.hover{
+    border:1px solid #c0301c;
+}
+.input.uniform-input [placeholder='WRITE YOUR MESSAGE'] {
+    width: 730px;
+    height: 100px;
+}
