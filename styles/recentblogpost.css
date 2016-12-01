@@ -1,0 +1,77 @@
+
+.post {
+    margin: 70px 0;
+}
+.posttext {
+    text-align: left;
+}
+
+
+.postimg, .posttext {
+    display: inline-block;
+    vertical-align: top;
+    color: #555555;
+}
+
+.postimg {
+    margin-right: 38px;
+}
+
+.postdata {
+    float: left;
+    border: 2px solid #555555;
+    width: 71px;
+    color: #777777;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Montserrat, Arial, "Helvetica Neue", Helvetica, sans-serif;
+    text-align: center;
+    padding: 16px 0 19px;
+    line-height: 0.8;
+    margin-right: 25px;
+}
+
+.postdata span {
+    font-size: 14px;
+}
+.autor {
+    margin-bottom: 25px;
+}
+.autor a h5   {
+    font-family: Montserrat, Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 16px;
+    color: #555555;
+    margin: 20px 0;
+    transition: color 0.3s;
+}
+
+.autor :hover h5 a,
+.autor :hover .autor span a {
+    color: #c0301c;
+}
+
+.autor span,
+.autor span a {
+    font-size: 13px;
+    font-style: italic;
+    color: #777777;
+    line-height: 1.3;
+    transition: color 0.3s;
+}
+
+.read {
+    font-size: 13px;
+    line-height: 1.8;
+}
+.readmore {
+    margin-top: 65px;
+}
+
+.readmore a {
+    font-size: 13px;
+    margin-top: 65px;
+    color: #555555;
+    font-weight: bold;
+    transition: color 0.3s;
+
+}
