@@ -30,7 +30,7 @@ $slider.slick({
 
     $slider2.slick({
         arrows:false,
-        autoplay:false,
+        autoplay:true,
         dots:true
     });
 });

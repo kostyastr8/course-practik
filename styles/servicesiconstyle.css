@@ -24,7 +24,7 @@
     height: 47px;
     padding: 19px;
 }
-/*доработать коректную рработу ховера*/
+
 .icon1:hover,
 .icon2:hover,
 .icon3:hover{
@@ -49,8 +49,8 @@
     display: none;
 }
 
-.icon1 .hoverservicon:hover,
-.icon2 .hoverservicon:hover,
-.icon3 .hoverservicon:hover{
+.icon1:hover .hoverservicon,
+.icon2:hover .hoverservicon,
+.icon3:hover .hoverservicon{
     opacity:1;
 }
