@@ -1,0 +1,27 @@
+.footer{
+    background-color: #c0301c;
+    margin-top: 90px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+
+.twter {
+    margin-top: 103px;
+    display: inline-block;
+    border:1px solid #ffffff;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    background: url("img/twitter.png") center center no-repeat;
+    margin-right: 5px;
+    margin-left:5px ;
+}
+
+.footer hr{
+    background-color: #ffffff;
+}
+.footer span {
+    color: #ffffff;
+
+}
