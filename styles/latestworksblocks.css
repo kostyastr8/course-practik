@@ -53,5 +53,24 @@
     opacity:1;
 }
 
+@media (max-width: 1140px){
+    .block {
+        margin: auto;
+    }
+    .block:last-child:after {
+        content: url("../images/Заглушка.jpg");
+    }
+}
+
+
+
+@media (max-width: 768px){
+    .block {
+        margin: auto;
+    }
+    .block:last-child:after {
+        content: url("../images/Заглушка.jpg");
+    }
+}
 
 

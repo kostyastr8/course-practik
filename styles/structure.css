@@ -28,10 +28,18 @@ a {
     margin: auto;
 }
 
-/*@media (max-width: 960px) {
+@media (max-width: 1024px) {
 
     .container {
-        max-width: 740px;
+        max-width: 1024px;
         margin: auto;
     }
-}*/
+}
+
+@media (max-width: 768px) {
+
+    .container {
+        max-width: 768px;
+        margin: auto;
+    }
+}

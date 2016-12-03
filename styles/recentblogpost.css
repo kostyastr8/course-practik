@@ -78,3 +78,63 @@
 .readmore a:hover {
     color: #c0301c;
 }
+
+@media (max-width: 1140px) {
+    .post {
+        text-align: center;
+    }
+    .postdata {
+        margin-left: 0;
+    }
+    .posttext {
+        padding-right: 180px;
+    }
+    .read {
+        display: none;
+    }
+    .postimg {
+        display:block;
+    }
+    .readmore a{
+        text-align: center;
+        font-size: 16px;
+    }
+    .readmore {
+        padding-left: 180px;
+    }
+
+    .posttext:last-child {
+        padding-right: 165px;
+
+    }
+}
+
+@media (max-width: 768px) {
+    .post {
+        text-align: center;
+    }
+    .postdata {
+        margin-left: 0;
+    }
+    .posttext {
+        padding-right: 180px;
+    }
+    .read {
+        display: none;
+    }
+    .postimg {
+        display:block;
+    }
+    .readmore a{
+        text-align: center;
+        font-size: 16px;
+    }
+    .readmore {
+        padding-left: 180px;
+    }
+
+    .posttext:last-child {
+        padding-right: 165px;
+
+    }
+}

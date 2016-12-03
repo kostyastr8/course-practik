@@ -80,5 +80,25 @@ h2 {
 
 
 
+@media (max-width: 1024px) {
+    .menu {
+        padding-right: 40px;
+    }
+    .startap {
+        padding-left: 40px;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .menu {
+        padding-right: 40px;
+    }
+    .startap {
+        padding-left: 40px;
+    }
+
+}
+
 
 
