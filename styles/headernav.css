@@ -23,7 +23,36 @@
     list-style: none;
     font-size: 14px;
     text-align: end;
+    position: relative;
+
 }
+
+
+.burgermenu {
+    float: right;
+    margin: auto;
+    text-align: left;
+    padding-right: 80px;
+    padding-top: 55px;
+}
+
+.burgermenu li {
+    display: none;
+}
+
+
+.burgermenu li .dropdown {
+    display: none;
+    position: absolute;
+    padding: 0;
+    color: #ffffff;
+    transition: color 0.3s;
+}
+.burgermenu li .dropdown li{
+    margin-top: 10px;
+}
+
+
 
 .menu li{
     display:inline;
@@ -90,14 +119,17 @@ h2 {
 
 }
 
-@media (max-width: 768px) {
-    .menu {
-        padding-right: 40px;
-    }
+@media (max-width: 770px) {
     .startap {
         padding-left: 40px;
     }
+    .menu {
+        display:none;
+    }
+    .burgermenu li {
+        display: block;
 
+    }
 }
 
 

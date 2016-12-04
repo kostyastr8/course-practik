@@ -31,6 +31,7 @@ $slider.slick({
             breakpoint:768,
             settings:{
                 slidesToShow:2,
+                arrows:false,
                 dots:true
             }
         }

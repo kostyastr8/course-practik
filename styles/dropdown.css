@@ -20,7 +20,7 @@
     position: absolute;
     height: 6px;
     width: 22px;
-    background: #555555;
+    background: #ffffff;
     border-radius: 9px;
     opacity: 1;
     left: 0;
@@ -74,36 +74,6 @@
     top: 18px;
     width: 0;
     left: 50%;
-}
-
-.header-nav li a:hover {
-    text-decoration: none;
-}
-
-.header-nav ul li {
-    display: flex;
-    background-color: #2b2b2b;
-    margin: 0;
-    padding: 0;
-    color: #ffffff;
-    transition: color 0.3s;
-    z-index: 10;
-}
-
-/*.header-nav menu li {
-    margin: 10px 0 10px;
-}*/
-
-.header-nav menu li {
-    display: block
-}
-.header-nav ul li a{
-    text-decoration: none;
-    color: white;
-}
-
-.nav ul {
-    list-style: none;
 }
 
 
