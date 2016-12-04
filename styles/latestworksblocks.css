@@ -64,12 +64,12 @@
 
 
 
-@media (max-width: 768px){
+@media (max-width: 742px){
     .block {
         margin: auto;
     }
     .block:last-child:after {
-        content: url("../images/Заглушка.jpg");
+        content: '';
     }
 }
 
