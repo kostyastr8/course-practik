@@ -79,7 +79,7 @@
 
 h2 {
     font-size: 48px;
-    margin: 0;
+    margin: auto;
     font-weight: normal;
 }
 
@@ -120,6 +120,9 @@ h2 {
 }
 
 @media (max-width: 770px) {
+    .headernav {
+        width: 100%;
+    }
     .startap {
         padding-left: 40px;
     }
@@ -129,6 +132,12 @@ h2 {
     .burgermenu li {
         display: block;
 
+    }
+    h2 {
+        font-size: 36px;
+    }
+    .greeting1 {
+        font-size: 18px;
     }
 }
 

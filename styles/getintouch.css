@@ -34,3 +34,10 @@
     color: #c0301c;
 }
 
+@media (max-width: 1024px) {
+    .getintouch {
+        width: 100%;
+    }
+
+}
+

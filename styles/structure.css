@@ -35,11 +35,21 @@ a {
         margin: auto;
     }
 }
-
-@media (max-width: 768px) {
+@media (max-width: 750px) {
 
     .container {
-        max-width: 768px;
+        max-width: 750px;
         margin: auto;
     }
 }
+
+
+@media (max-width: 640px) {
+
+    .container {
+        max-width: 640px;
+        margin: auto;
+    }
+}
+
+

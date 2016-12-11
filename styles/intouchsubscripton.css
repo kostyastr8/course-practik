@@ -155,31 +155,6 @@ div.button span {
 
 
 
-@media (max-width: 1210px) {
-    .contacts {
-        float: none;
-        margin: 0;
-
-    }
-
-    .contlist {
-        padding: 0;
-        text-align: center;
-    }
-
-    .contlist li {
-        display: inline-block;
-        margin-right: 10px;
-    }
-
-    .contlist li:before {
-        left: -60%
-    }
-
-    .contlist li:nth-of-type(2):before {
-        left: -80%;
-    }
-}
 
 
 @media (max-width: 1140px){
@@ -187,7 +162,6 @@ div.button span {
     .contacts{
         float: none;
         margin: 0;
-
     }
 
     .contlist{
@@ -216,11 +190,12 @@ div.button span {
         margin-left: 10px;
     }
     input.uniform-input {
+        width: 90%;
         margin-right: 13px;
     }
 
     .message input.uniform-input {
-        width: 330px;
+        width: 90%;
         height: 35px;
         padding: 0  0 65px 15px;
     }
@@ -228,10 +203,32 @@ div.button span {
     .button {
         float: none;
     }
-
     .comm {
-
-
+        text-align: center;
     }
+
 }
+
+@media (max-width: 1140px) {
+    form {
+        margin-left: 5px;
+    }
+    input.uniform-input {
+        width: 80%;
+        margin-right: 13px;
+    }
+
+    .message input.uniform-input {
+        width: 80%;
+        height: 35px;
+        padding: 0  0 65px 15px;
+    }
+    .comm {
+        margin: 0 20px;
+        text-align: justify;
+    }
+
+
+}
+
 

@@ -18,6 +18,7 @@ h4 {
     font-family: Montserrat, Arial, "Helvetica Neue", Helvetica, sans-serif;
     margin: 0 auto;
     color: #555555;
+    wrap-option: wrap;
 }
 
 .aboutus h4{
@@ -42,6 +43,7 @@ hr {
     color: #555555;
     margin-top: 30px;
     line-height: 1.30;
+    text-align: justify;
 }
 
 .servicetype,
@@ -89,9 +91,6 @@ hr {
 .aboutusbackcolor{
     background-color: #f8f8f8;
 }
-
-
-
 
 .works{
     margin: 96px auto 77px;
@@ -159,7 +158,7 @@ hr {
 
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
     .servicetypeelement {
         display: block;
         padding: 0;
@@ -176,8 +175,27 @@ hr {
     .textpart {
         display: block;
         text-align: center;
-        margin: 20px auto;
+        margin: 20px 10px;
+    }
+    .textpart:first-child,
+    .textpart:last-child {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .textpart span {
+       text-align: justify;
+       margin: 0 10px;
     }
 
+    .latesworksmenu {
+        padding: 0;
+    }
+    .latesworksmenu li {
+        display: block;
+        padding: 0;
+        margin: auto;
+    }
+    .service,
+    .aboutus
 }
 

@@ -67,44 +67,27 @@ ul .slick-active button {
 }
 
 
-@media (max-width: 1130px) {
 
-    .clientslogo a {
-        text-align: center;
-        margin-top: 30px;
-    }
-    .clientslogo {
-        display: inline-block;
-        text-align: center;
-        margin: 100px 60px 50px;
-    }
-
-}
-
-@media (max-width: 1024px) {
-
-    .clientslogo a {
-        text-align: center;
-        margin-top: 30px;
-    }
-    .clientslogo {
-        display: inline-block;
-        text-align: center;
-        margin: 100px 60px 50px;
-    }
-
-}
 
 @media (max-width: 768px) {
 
     .clientslogo a {
-        text-align: center;
-        margin-top: 30px;
+        display: block;
+        margin: 0;
     }
-    .clientslogo {
-        display: inline-block;
+
+    .clientslogo a img {
+        display: block;
         text-align: center;
-        margin: 100px 60px 50px;
+        padding-top: 50px;
+        margin: auto;
+    }
+
+    .clientslogo {
+        display: block;
+        text-align: center;
+        margin: 0;
     }
 
 }
+

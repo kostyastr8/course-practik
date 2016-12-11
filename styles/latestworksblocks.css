@@ -8,6 +8,7 @@
     margin: 25px 25px 0 0;
 }
 
+
 .block:nth-child(3),
 .block:nth-child(6),
 .block:nth-child(9){
@@ -60,12 +61,30 @@
     .block:last-child:after {
         content: url("../images/Заглушка.jpg");
     }
+    .workaction {
+        width: 90%;
+        height: auto;
+        margin: auto;
+
+    }
 }
 
 
 
-@media (max-width: 742px){
+@media (max-width: 768px){
     .block {
+        margin: auto;
+    }
+    .block:last-child:after {
+        content: url("../images/Заглушка.jpg");
+    }
+
+}
+
+@media (max-width: 425px){
+    .block img {
+        width: 90%;
+        height: auto;
         margin: auto;
     }
     .block:last-child:after {
