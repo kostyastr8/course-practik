@@ -29,7 +29,7 @@ $slider.slick({
             }
         },
         {
-            breakpoint:430,
+            breakpoint:565,
             settings: {
                 slidesToShow:1,
                 arrows:false,
